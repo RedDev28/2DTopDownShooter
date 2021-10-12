@@ -43,6 +43,15 @@ ExportedObj/
 *.opendb
 *.VC.db
 
+#Ignore all files and folders.
+/*
+
+#Except the Assets and ProjectSettings folder, as well as the selected Git files.
+!Assets/
+!ProjectSettings/
+!.gitignore
+!.gitattributes
+
 # Unity3D generated meta files
 *.pidb.meta
 *.pdb.meta
